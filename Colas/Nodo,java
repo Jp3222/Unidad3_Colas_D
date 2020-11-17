@@ -1,0 +1,12 @@
+package Colas;
+
+public class Nodo {
+
+    int datos;
+    Nodo siguiente;
+    
+    public Nodo(int d) {
+        this.datos = d;
+        this.siguiente = null;
+    }
+}
